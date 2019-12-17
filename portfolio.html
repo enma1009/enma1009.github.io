@@ -7,47 +7,68 @@
     <!--CSS Styles-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Enid Soto - Porfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <title>Enid Soto - Website</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">Enid Soto</a> 
-        <nav>
-            <a href="index.html">About</a> 
-            <a href="portfolio.html">Portfolio</a> 
-            <a href="contact.html">Contact</a> 
-        </nav>
-    </header>
-    <section>
-        <h1>Portfolio</h1>
-        <hr>
-        <article>
-            <h2>Shipping Calculator</h2>
-            <img src="assets/images/calculator.jpg" alt="Shipping calculator" width="450" height="350">
-        </article>
-        <article>
-            <h2>Hangman</h2>
-            <img src="assets/images/hangman.jpg" alt="Hangman" width="450" height="350">
-        </article>
-        <article>
-            <h2>Rock Paper Scissors</h2>
-            <img src="assets/images/rock_paper_scissors.jpg" alt="Rock Paper Scissors" width="450" height="350">
-        </article>
-        <article>
-            <h2>RPG Game</h2>
-            <img src="assets/images/rpg.jpg" alt="RPG Game" width="450" height="350">
-        </article>
-        <article>
-            <h2>Trivia</h2>
-            <img src="assets/images/trivia.jpg" alt="Trivia" width="450" height="350">
-        </article>
-        <article>
-            <h2>Widget</h2>
-            <img src="assets/images/widget.jpg" alt="Widget" width="450" height="350">
-        </article>
-    </section>
-    <footer>
-        <p>Copyright Enid Soto &copy;</p>
+    <div class="header-background grey-shadow"></div>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <a href="index.html" class="float-left logo">Enid Soto</a> 
+                <nav class="float-right nav-links sans-serif">
+                    <a href="index.html">About</a> <span class="divider-bar">&#124;</span>
+                    <a href="portfolio.html">Portfolio</a> <span class="divider-bar">&#124;</span>
+                    <a href="contact.html">Contact</a> 
+                </nav>
+            </div>
+        </header>
+        <section class="main-content clearfix grey-shadow sans-serif">
+            <h1>Portfolio</h1>
+            <hr>
+            <a href="project_sample_page.html">
+                <article class="project">
+                    <h2 class="portfolio-title">Shipping Calculator</h2>
+                    <img src="assets/images/calculator.jpg" alt="Shipping calculator">
+                </article>
+            </a>
+            <a href="project_sample_page.html">
+                <article class="project">
+                    <h2 class="portfolio-title">Hangman</h2>
+                    <img src="assets/images/hangman.jpg" alt="Hangman">
+                </article>
+            </a>
+            <a href="project_sample_page.html">
+                <article class="project">
+                    <h2 class="portfolio-title">Rock Paper Scissors</h2>
+                    <img src="assets/images/rock_paper_scissors.jpg" alt="Rock Paper Scissors">
+                </article>
+            </a>
+            <a href="project_sample_page.html">
+                <article class="project">
+                    <h2 class="portfolio-title">RPG Game</h2>
+                    <img src="assets/images/rpg.jpg" alt="RPG Game">
+                </article>
+            </a>
+            <a href="project_sample_page.html">
+                <article class="project">
+                    <h2 class="portfolio-title">Trivia</h2>
+                    <img src="assets/images/trivia.jpg" alt="Trivia">
+                </article>
+            </a>
+            <a href="project_sample_page.html">
+                <article class="project">
+                    <h2 class="portfolio-title">Widget</h2>
+                    <img src="assets/images/widget.jpg" alt="Widget">
+                </article>
+            </a>
+        </section>
+    </div>
+    <footer class="grey-shadow">
+        <div class="footer-content">
+            <p class="sans-serif">&copy; Copyright Enid Soto 2019</p>
+        </div>
     </footer>
 </body>
 </html>

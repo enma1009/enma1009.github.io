@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Enid Soto - Porfolio Website</title>
+    <!--CSS Styles-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <title>Enid Soto - Website</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">Enid Soto</a> 
-        <nav>
-            <a href="index.html">About</a> 
-            <a href="portfolio.html">Portfolio</a> 
-            <a href="contact.html">Contact</a> 
-        </nav>
-    </header>
-    <section>
-        <h1>About Me</h1>
-        <hr>
-        <img src="assets/images/esoto_profilepic.jpg" alt="Photo of Enid Soto">
-        <p>My name is Enid Maori Soto Paez. I was born September 10, 1983 in Venezuela. I always loved to draw since I was a kid, and I thought I was very good at it. Growing up I got more crafty; I learned about art history, drawing and painting techniques, and even a little bit of woodworking.</p>
-        <p>I decided I should take advantage of these creative traits, so I went to school and obtained a Bachelors in Graphic Design. This is what I currently do for a living and it has been going very well for many years. I also obtained a A.S. degree in web development in 2012, and I completed a very comprehensive programming bootcamp in 2020. I wanted to expand my skillset to keep up with market demand and to make myself more able to be creative in the digital world.</p>
-        <p>Today, my work focused in both graphic design and front-end development, which turns me into a well-rounded profesional and an asset for any company. This website showcases a few samples of my programming work. Please <a href="contact.html">contact me</a> if you have any questions!</p>
-    </section>
-    <footer>
-        <p>Copyright Enid Soto &copy;</p>
+    <div class="header-background grey-shadow"></div>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <a href="index.html" class="float-left logo">Enid Soto</a> 
+                <nav class="float-right nav-links sans-serif">
+                    <a href="index.html">About</a> <span class="divider-bar">&#124;</span>
+                    <a href="portfolio.html">Portfolio</a> <span class="divider-bar">&#124;</span>
+                    <a href="contact.html">Contact</a> 
+                </nav>
+            </div>
+        </header>
+        <section class="main-content clearfix grey-shadow sans-serif">
+            <h1>About Me</h1>
+            <hr>
+            <img src="assets/images/esoto_profilepic.jpg" alt="Photo of Enid Soto" class="float-left">
+            <p>My name is Enid Maori Soto Paez. I was born September 10, 1983 in Venezuela. I always loved to draw since I was a kid, and I thought I was very good at it. Growing up I got more crafty; I learned about art history, drawing and painting techniques, and even a little bit of woodworking.</p>
+            <br>
+            <p>I decided I should take advantage of these creative traits, so I went to school and obtained a Bachelors in Graphic Design. This is what I currently do for a living and it has been going very well for many years. I also obtained a A.S. degree in web development in 2012, and I completed a very comprehensive programming bootcamp in 2020. I wanted to expand my skillset to keep up with market demand and to make myself more able to be creative in the digital world.</p>
+            <br>
+            <p>Today, my work focused in both graphic design and front-end development, which turns me into a well-rounded profesional and an asset for any company. This website showcases a few samples of my programming work. Please <a href="contact.html">contact me</a> if you have any questions!</p>
+        </section>
+    </div>
+    <footer class="grey-shadow">
+        <div class="footer-content">
+            <p class="sans-serif">&copy; Copyright Enid Soto 2019</p>
+        </div>
     </footer>
 </body>
 </html>
