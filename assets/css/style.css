@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/washi.png);
+    background-image: url(../images/bananas.png);
     background-repeat: repeat;
 }
 .wrapper {
@@ -8,9 +8,10 @@ body {
     min-height: calc(100vh - 80px);
 }
 header {
-    background-color: #c0c0c0; 
+    background-image: url(../images/halftone-yellow.png);
+    background-repeat: repeat-x; 
     height: 80px;
-    border-bottom: 4px solid #f5f5f5;
+    border-bottom: 4px solid #186a60;
 }
 .float-left {
     float: left;
@@ -21,7 +22,7 @@ header {
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
-    color: orchid;
+    color: #186a60;
 }
 .sans-serif {
     font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +46,7 @@ nav {
     font-weight: bold;
 }
 .divider-bar {
-    color: orchid;
+    color: #186a60;
 }
 .main-content {
     margin: 20px auto;
@@ -58,9 +59,11 @@ nav {
     display: table;
 }
 footer {
+    background-image: url(../images/halftone-yellow.png);
+    background-repeat: repeat-x;
     background-color: #cfcfcf;
     height: 80px;
-    border-top: 4px solid #f5f5f5;
+    border-top: 4px solid #ce9c25;
 }
 .footer-content {
     width: 960px;
@@ -70,12 +73,14 @@ footer {
     margin: 0;
     padding: 20px;
     color: #2a2a2a;
+    text-align: center;
+    font-size: 14px;
 }
 .logo {
     font-size: 40px;
-    color: #ffff !important;
+    color: #186a60 !important;
     display: inline-block;
-    background-color: orchid;
+    background-color: #f8be33;
     height: 80px;
     padding: 0 25px;
     padding-top: 20px;
@@ -83,17 +88,18 @@ footer {
     font-family: 'Caveat', cursive;
 }
 hr {
-    border: 1px solid orchid;
+    border: 1px solid #186a60;
     margin: 20px 0;
 }
-.grey-shadow {
-    box-shadow: 1px 1px 30px #ccc;
+.box-shadow {
+    box-shadow: 1px 1px 30px #7cd4d7;
 }
 .header-background {
-    background-color: #cfcfcf;
+    background-image: url(../images/halftone-yellow.png);
+    background-repeat: repeat-x;
     width: 100%;
     height: 80px;
-    border-bottom: 4px solid #f5f5f5;
+    border-bottom: 4px solid #76bcb3;
     position: absolute;
     z-index: -1;
 }
@@ -109,19 +115,22 @@ a:hover, a:active {
     float: left;
     margin: 5px;
     position: relative;
+    box-shadow: 1px 1px 5px #7cd4d7;
 }
 .portfolio-title {
-    background-color: orchid;
+    background-color: #f8be33;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     width: 100%;
-    height: 40px;
+    height: 60px;
     box-sizing: border-box;
 }
 .project h2 { 
-    color: #fff;
+    color: #186a60;
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 18px;
+    text-align: center;
 }

@@ -7,32 +7,41 @@
     <!--CSS Styles-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Enid Soto - Contact Me</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <title>Enid Soto - Website</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">Enid Soto</a> 
-        <nav>
-            <a href="index.html">About</a> 
-            <a href="portfolio.html">Portfolio</a> 
-            <a href="contact.html">Contact</a> 
-        </nav>
-    </header>
-    <section>
-        <h1>Contact</h1>
-        <hr>
-        <form action="mailto:enid.soto@gmail.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name" value="Your name here"><br>
-            E-mail:<br>
-            <input type="text" name="mail" value="username@email.com"><br>
-            Message:<br>
-            <textarea rows="4" cols="50">Questions? Just saying hi? Write your message here.</textarea><br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-    <footer>
-        <p>Copyright Enid Soto &copy;</p>
+    <div class="header-background box-shadow"></div>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <a href="index.html" class="float-left logo">Enid Soto</a> 
+                <nav class="float-right nav-links sans-serif">
+                    <a href="index.html">About</a> <span class="divider-bar">&#124;</span>
+                    <a href="portfolio.html">Portfolio</a> <span class="divider-bar">&#124;</span>
+                    <a href="contact.html">Contact</a> 
+                </nav>
+            </div>
+        </header>
+        <section class="main-content clearfix box-shadow sans-serif">
+            <h1>Contact</h1>
+            <hr>
+            <form action="mailto:enid.soto@gmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name" value="Your name here"><br>
+                E-mail:<br>
+                <input type="text" name="mail" value="username@email.com"><br>
+                Message:<br>
+                <textarea rows="4" cols="50">Questions? Just saying hi? Write your message here.</textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+    <footer class="box-shadow">
+        <div class="footer-content">
+            <p class="sans-serif">&copy; Copyright Enid Soto 2019</p>
+        </div>
     </footer>
 </body>
 </html>
