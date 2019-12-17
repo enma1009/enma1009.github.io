@@ -134,3 +134,33 @@ a:hover, a:active {
     padding: 18px;
     text-align: center;
 }
+input[type=text], textarea {
+    color: #b2b2b2;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+textarea {
+    height: 100px;
+}
+input[type=submit] {
+    color: #186a60;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #f8be33;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #186a60;
+    color: #f8be33;
+  }
